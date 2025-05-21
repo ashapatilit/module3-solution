@@ -1,0 +1,152 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #f6f6f6;
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 25px;
+  }
+  
+  .navbar-default .navbar-brand {
+    color: #555;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .navbar-default .navbar-toggle {
+    border-color: #ddd;
+    float: right;
+    margin-right: 15px;
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #555;
+  }
+  
+  .navbar-default .navbar-toggle:focus, 
+  .navbar-default .navbar-toggle:hover {
+    background-color: #eee;
+  }
+  
+  .navbar-collapse {
+    padding: 0;
+    border-top: 1px solid #e7e7e7;
+  }
+  
+  .navbar-default .navbar-collapse {
+    border-top: 1px solid #e7e7e7;
+  }
+  
+  #collapsable-nav {
+    width: 100%;
+    background-color: white;
+  }
+  
+  #collapsable-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #collapsable-nav li {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  #collapsable-nav li:last-child {
+    border-bottom: none;
+  }
+  
+  #collapsable-nav a {
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    display: block;
+  }
+  
+  #collapsable-nav a:hover,
+  #collapsable-nav a:focus {
+    background-color: #eee;
+    text-decoration: none;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #f6b319;
+    color: #000;
+  }
+  
+  .menu-section {
+    margin-bottom: 30px;
+  }
+  
+  .menu-content {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    min-height: 700px;
+  }
+  
+  .menu-content p {
+    margin-bottom: 20px;
+  }
+  
+  .back-to-top {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #f6b319;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .back-to-top:hover {
+    background-color: #e59400;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-header {
+      margin: 0;
+    }
+    
+    .navbar-brand {
+      padding-left: 15px;
+    }
+    
+    .navbar-collapse {
+      margin: 0;
+      padding: 0;
+      border-top: 1px solid #000;
+    }
+    
+    .navbar-nav > li {
+      padding-left: 0;
+    }
+    
+    .navbar-nav > li:before {
+      content: none;
+    }
+    
+    .navbar-toggle {
+      float: right;
+      margin-right: 15px;
+    }
+  }
